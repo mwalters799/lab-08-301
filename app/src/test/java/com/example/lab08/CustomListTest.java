@@ -29,13 +29,16 @@ public class CustomListTest {
         });
     }
 
-    /*
+
     @Test
     public void testCountCities(){
         CustomList cityList = new CustomList();
         City edmonton = new City("Edmonton", "AB");
         City calgary = new City("Calgary", "AB");
+        cityList.addCity(edmonton);
+        cityList.addCity(calgary);
         int correctCount = 2;
+        assertEquals(correctCount, cityList.countCities());
     }
-     */
+
 }

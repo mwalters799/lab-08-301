@@ -31,11 +31,10 @@ public class CustomList {
         }
     }
 
-    /*
+
     //Returns amount of cities in the list
     public int countCities(){
-        return cities.size();
+        int wrongSize = cities.size() + 1;
+        return wrongSize;
     }
-
-     */
 }
