@@ -20,4 +20,24 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+
+    //Delete city - Deletes city from the list
+    public void deleteCity(City city){
+        /*
+        if (cities.contains(city)){
+            cities.remove(city);
+        }
+        else {
+            throw new IllegalArgumentException();
+        }
+         */
+    }
+
+    /*
+    //Returns amount of cities in the list
+    public int countCities(){
+        return cities.size();
+    }
+
+     */
 }
