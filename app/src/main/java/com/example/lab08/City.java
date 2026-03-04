@@ -20,6 +20,7 @@ public class City {
     // To make "contains" work properly in tests
     @Override
     public boolean equals(Object o) {
+        //ci verification comment ^_^
         if (this == o) return true;
         if (!(o instanceof City)) return false;
         City cityObj = (City) o;
