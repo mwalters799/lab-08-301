@@ -23,14 +23,12 @@ public class CustomList {
 
     //Delete city - Deletes city from the list
     public void deleteCity(City city){
-        /*
         if (cities.contains(city)){
             cities.remove(city);
         }
         else {
             throw new IllegalArgumentException();
         }
-         */
     }
 
     /*
